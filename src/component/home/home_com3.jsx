@@ -12,7 +12,7 @@ let Home_com3 = () => {
               });
              
               sethome(homedata.data.data)
-              console.log(home)
+       
       
             } catch (error) {
       
@@ -29,9 +29,9 @@ let Home_com3 = () => {
             <div className="home3_main">
                 {
                     home.slice(0,6).map((home) => (
-                        <Link to={`product/productcard/${home.id}`}>
-                        <div className="card" key={home.id}>
-                            <div className="card2">
+                        <Link key={home.id} to={`/productcard/${home.id}`}>
+                        <div className="card" >
+                            <div  className="card2">
                             <img src={home.attributes.image.data.attributes.url} alt="error" width="200px" />
                             <p>{home.attributes.title}</p>
                             <p>{home.attributes.price} Rs</p>

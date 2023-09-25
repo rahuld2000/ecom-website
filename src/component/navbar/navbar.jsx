@@ -30,7 +30,7 @@ function Nav() {
               document.getElementById("l_nav").style.display = "flex";
             }}
             className="burger_menu">
-            <i class="ri-menu-2-line"></i>
+            <i className="ri-menu-2-line"></i>
           </div>
           <ul id="l_nav">
             <span>
@@ -40,7 +40,7 @@ function Nav() {
                   document.getElementById("l_nav").style.display = "none";
                 }}
               >
-                <i class="ri-close-line"></i>
+                <i className="ri-close-line"></i>
               </button>
             </span>
             <li>
@@ -55,7 +55,7 @@ function Nav() {
             </li>
             <li>
               COLLECTIONS
-              <ul class="dropdown">
+              <ul className="dropdown">
                 <li ><NavLink className="sneaker_btn" to="/sneaker">SNEAKERS</NavLink> </li>
                 <li>Hodie x Anime</li>
               </ul>
@@ -71,13 +71,13 @@ function Nav() {
         </div>
 
         <div className="left_com">
-          <i class="ri-user-line"></i>
+          <i className="ri-user-line"></i>
           <p
             onClick={() => {
               document.getElementById("cart_main").style.display = "flex";
             }}
           >
-            <i class="ri-shopping-cart-2-line"></i>{" "}
+            <i className="ri-shopping-cart-2-line"></i>{" "}
           </p>
 
           <span className="dot"></span>

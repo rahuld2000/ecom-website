@@ -23,20 +23,23 @@ function Cart() {
        <div className="cart_upper">
        <span>SHOPPING CART</span> <span><button className="close_cart" onClick={() => {
         document.getElementById("cart_main").style.display = "none"
-      }}><i class="ri-close-line"></i></button></span>
+      }}><i className="ri-close-line"></i></button></span>
        </div>
       <div className="middle_cart">
-      {products.map((products) => (
-
+      {products.map((products) => {
+      return(
         <div className='cart' key={products.id}>
 
-          <img src={products.attributes.image.data.attributes.url} width="60px"/>
-          <p className="cart_title">{products.attributes.title}</p>
-          <p className="cart_price">{products.attributes.price} Rs</p>
- <i onClick={() => handleclick(products)} class="ri-close-line"></i>
+<img src={products.attributes.image.data.attributes.url} width="60px" alt="error"/>
+<p className="cart_title">{products.attributes.title}</p>
+<p className="cart_price">{products.attributes.price} Rs</p>
+<i onClick={() => handleclick(products)} class="ri-close-line"></i>
 
-        </div>
-      ))}
+</div>
+      )
+
+       
+      })}
 </div>
       <div className="cart_total">
         <br />

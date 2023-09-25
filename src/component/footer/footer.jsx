@@ -9,12 +9,12 @@ let Footer = () => {
             <div className="footer_data">
                 <div className="f_contacts">
                     <p>Helpful Links</p>
-                    <a className="nav_link" href="">Contact Information</a>
-                    <a className="nav_link" href="">Privacy Policy</a>
-                    <a className="nav_link" href="">Refund Policy</a>
-                    <a className="nav_link" href="">Refund Policy</a>
-                    <a className="nav_link" href="">Shipping Policy</a>
-                    <a className="nav_link" href="">Terms of Service</a>
+                    <a className="nav_link" href="/">Contact Information</a>
+                    <a className="nav_link" href="/">Privacy Policy</a>
+                    <a className="nav_link" href="/">Refund Policy</a>
+                    <a className="nav_link" href="/">Refund Policy</a>
+                    <a className="nav_link" href="/">Shipping Policy</a>
+                    <a className="nav_link" href="/">Terms of Service</a>
                 </div>
                 <div className="f_mail">
                     <p>Mailing List</p>
@@ -22,10 +22,10 @@ let Footer = () => {
                    <button>Sign Up</button>
                 </div>
                 <div className="f_icon">
-                    <i class="ri-twitter-x-line"></i>
-                    <i class="ri-facebook-circle-fill"></i>
-                    <i class="ri-mail-line"></i>
-                    <i class="ri-youtube-fill"></i>
+                    <i className="ri-twitter-x-line"></i>
+                    <i className="ri-facebook-circle-fill"></i>
+                    <i className="ri-mail-line"></i>
+                    <i className="ri-youtube-fill"></i>
                 </div>
 
             </div>

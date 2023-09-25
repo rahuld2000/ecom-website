@@ -34,7 +34,7 @@ function Product() {
           <div className='card' key={product.id}>
           <NavLink to={`/productcard/${product.id}`}>
             <div className="card2">
-              <img src={product.attributes.image.data.attributes.url} width="150px" />
+              <img src={product.attributes.image.data.attributes.url} width="150px" alt="error" />
               <p>{product.attributes.title}</p>
               <p>{product.attributes.price}</p>
             </div>

@@ -26,7 +26,7 @@ let Carousel = () => {
                 return (
                     <img
                         src={item}
-                      
+                      alt="error"
                         key={idx}
                         className={slide === idx ? "slide" : "slide slide-hidden"}
                     />
