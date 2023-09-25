@@ -1,0 +1,45 @@
+.shop_main{
+    width: 100%;
+    height: 100%;
+display: flex;
+background-color: #2f2f2f;
+
+}
+.shop_grid{
+    width: 100%;
+ margin-top: 150px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+  
+   row-gap: 40px;
+   column-gap: 12px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+
+
+}
+.card2{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+    img{
+        width: 300px;
+        height: 400px;
+        cursor: pointer;
+        object-fit: cover;
+    }
+    p{
+        color: white;
+        
+    }
+}

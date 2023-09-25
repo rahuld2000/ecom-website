@@ -1,0 +1,18 @@
+.home3_main{
+    
+        width: 100%;
+    padding-top: 100px;
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+      background-color: #2f2f2f;
+       row-gap: 40px;
+       column-gap: 12px;
+    
+}
+@media only screen and (max-width: 600px) {
+.home3_main{
+    display: flex;
+    flex-direction: column;
+}
+ 
+}

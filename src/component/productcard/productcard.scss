@@ -1,0 +1,82 @@
+
+.product_main{
+    background-color: #2f2f2f;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 250px 0 250px;
+    color: white;
+    justify-content: center;
+    gap: 250px;
+  
+}
+.card_img{
+    width: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.pcard_data{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.main_title{
+    font-size: 25px;
+    font-weight: 300;
+    color:#9370b1 ;
+    font-family: 'Tenor Sans', sans-serif;
+}
+.p_price{
+    font-size: 18px;
+ 
+}
+.p_size{
+    font-size:15px;
+    font-weight: 300;
+}
+.pbtn_size{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+   button{
+    width: 80px;
+    height: 35px;
+    color: white;
+    background-color: #282828;
+    border: none;
+    cursor: pointer;
+   }
+}
+.btn_size1:hover{
+    background-color: #9370b1;
+}
+
+.btn_buy{
+    width:100%;
+    height: 45px;
+    cursor:pointer;
+    border: none;
+}
+.btn_buy:hover{
+    background-color: #9370b1;
+    color: #2f2f2f;
+}
+.p_desc{
+font-size: 12px;
+font-weight: 400;
+display: flex;
+flex-direction: column;
+
+}
+
+table{
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+th, td{
+    text-align: center;
+   padding: 10px;
+    border-top: 1px solid;
+}

@@ -1,0 +1,30 @@
+.h_img_comp{
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+.main_home_img{
+ padding: 40px 40px;
+    background-color: #2f2f2f;
+}
+.home_image{
+    width:450px;
+    height: 700px;
+    object-fit: cover;
+      }
+      .h_img_comp2{
+        display: none;
+    }
+    
+   .h_carousel{
+    display: none;
+   }
+   @media only screen and (max-width: 600px) {
+    .h_img_comp{
+        display: none;
+    }
+    .h_carousel{
+        display: flex;
+       }
+   }
